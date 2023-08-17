@@ -36,16 +36,3 @@ const lightbox = new SimpleLightbox(".gallery a", {
   animationSlide: false,
 });
 
-lightbox.on("shown.simplelightbox", function () {
-  console.log("Галерею завантажено");
-});
-lightbox.on("closed.simplelightbox", function () {
-  console.log("Галерею закрито");
-});
-
-lightbox.on("nextDone.simplelightbox", function () {
-  console.log("Завантажено наступне зображення");
-});
-lightbox.on("prevDone.simplelightbox", function () {
-  console.log("Завантажено попереднє зображення");
-});
