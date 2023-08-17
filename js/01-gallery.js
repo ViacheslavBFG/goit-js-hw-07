@@ -20,7 +20,8 @@ function makeGalleryListMarkup(images) {
         </a>
     </li>`
     )
-    
+    .join("");
+}
 
 refs.gallery.insertAdjacentHTML(
   "beforeend",
